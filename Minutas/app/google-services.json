@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "593307230374",
+    "project_id": "proyectofinal-pdm-8e72a",
+    "storage_bucket": "proyectofinal-pdm-8e72a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593307230374:android:32cde0f1bc7bc85bbe5467",
+        "android_client_info": {
+          "package_name": "com.example.minutas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgBh22lfYqDn6vG8iSpUAEYEJg5h843R8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

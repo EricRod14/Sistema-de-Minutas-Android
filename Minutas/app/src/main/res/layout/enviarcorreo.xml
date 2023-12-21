@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvLugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lugar de la reunion:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etLugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe el lugar"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/tvHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hora de la reunion:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe la hora"
+        android:inputType="datetime|time"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/tvFecha2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de la reunion:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe la fecha"
+        android:inputType="datetime|date"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/tvAsunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asunto:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etAsunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe el asunto"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/tvCarrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selecciona la carrera:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerCarreras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/tvCuerpo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Mensaje:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etCuerpo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe el cuerpo del correo"
+        android:inputType="textMultiLine"
+        android:lines="4" />
+
+    <Button
+        android:id="@+id/btnEnviarCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Enviar Correo" />
+
+</LinearLayout>
